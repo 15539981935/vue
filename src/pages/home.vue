@@ -1,19 +1,17 @@
 <template>
-    <div class="fillcontain">
-      home
-    </div>
+  <div class="home">
+    <p>sddddassdadadasd</p>
+  </div>
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-
-    };
+  name: "home",
+  data () {
+    return {};
   }
 };
-</script>
+</script> 
 
 <style lang="less">
-
 </style>

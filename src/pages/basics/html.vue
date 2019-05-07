@@ -1,12 +1,14 @@
 <template>
-    <div class="fillcontain">
-      html
-    </div>
+  <div class="htmlPage">
+    html
+    <div></div>
+  </div>
 </template>
 
 <script>
 export default {
-  data() {
+  name: "htmlPage",
+  data () {
     return {
 
     };
@@ -15,5 +17,11 @@ export default {
 </script>
 
 <style lang="less">
-
+.htmlPage {
+  div {
+    width: 100%;
+    height: 2000px;
+    background-color: antiquewhite;
+  }
+}
 </style>
